@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('Griffy-Regular.ttf');
+}
+
+#text {
+    font-family: 'Fruktur', cursive;
+    color: #3D3019;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+body {
+    overflow: hidden;
+    background-color: #f8b956;
+    /*E84900*/
+}
+
+.drop {
+    position: absolute;
+    top: 0px;
+    width: 7px;
+    height: 24px;
+}
+
+#drop1 {
+    top: -320px;
+    left: 50px;
+}
+
+#drop2 {
+    top: -50px;
+    left: 520px;
+}
+
+#drop3 {
+    top: -120px;
+    left: 180px;
+}
+
+#drop4 {
+    left: 290px;
+}
+
+#drop5 {
+    top: -200px;
+    left: 720px;
+}
+
+#drop6 {
+    top: -120px;
+    right: 540px;
+}
+
+#drop7 {
+    top: -320px;
+    right: 50px;
+}
+
+#drop8 {
+    top: -75px;
+    right: 270px;
+}
+
+#drop9 {
+    top: -130px;
+    right: 370px;
+}
+
+#drop10 {
+    top: -100px;
+    right: 125px;
+}
+
+.monsterContainer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.monster {
+    position: absolute;
+    bottom: 0px;
+}
+
+.eyeball {
+    position: relative;
+    left: 286px;
+    bottom: 431px;
+    z-index: 5;
+    width: 105px;
+    height: 115px;
+    border-radius: 55px;
+    /*background-color: red;
+    opacity: 0.5;*/
+}
+
+#waves {
+    position: absolute;
+    bottom: -4px;
+    left: -90px;
+    z-index: -10;
+}
