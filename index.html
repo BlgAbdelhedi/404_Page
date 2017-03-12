@@ -10,12 +10,12 @@
 
 <body>
 
-<div class="container">
-    <h1 id="text">404 Not found, Careful now</h1>
-</div>
+    <div class="container">
+        <h1 id="text">404 Not found, Careful now</h1>
+    </div>
     <div class="monsterContainer">
         <img class="monster" src="src/img/monster.png">
-        <div class="eyeball" >
+        <div class="eyeball">
             <div class="iris">
                 <img src="src/img/eye.png" alt="" />
             </div>
@@ -23,7 +23,7 @@
     </div>
 
     <div id="waves">
-      <img src="src/img/waves.png" alt="" />
+        <img src="src/img/waves.png" alt="" />
     </div>
 
     <img src="src/img/drop.png" id="drop1" class="drop" alt="" />
@@ -37,15 +37,17 @@
     <img src="src/img/drop.png" id="drop9" class="drop" alt="" />
     <img src="src/img/drop.png" id="drop10" class="drop" alt="" />
 
-    <script type="text/javascript" src="src/lib/TweenMax.min.js"></script>
-  	<script type="text/javascript" src="src/lib/TimelineLite.min.js"></script>
+
     <script type="text/javascript" src="src/lib/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="src/lib/jquery.xeyes-2.0.min.js"></script>
+    <script type="text/javascript" src="src/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="src/lib/TimelineLite.min.js"></script>
     <script type="text/javascript" src="src/js/animation.js"></script>
 
     <script>
-        $('.iris').xeyes();
-
+        $(document).ready(function() {
+            $('.iris').xeyes();
+        })
     </script>
 </body>
 
